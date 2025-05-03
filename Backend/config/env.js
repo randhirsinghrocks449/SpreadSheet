@@ -1,7 +1,6 @@
 import dotenv from 'dotenv';
 
-dotenv.config(); // Load .env only once here
-
+dotenv.config();
 export const {
     PORT,
     MONGO_URI,

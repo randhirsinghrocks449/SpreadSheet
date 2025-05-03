@@ -2,7 +2,6 @@ import User from '../models/user.model.js';
 import { asyncHandler } from '../utils/catchAsync.utils.js';
 import { generateEncryptedToken } from '../utils/token.utils.js';
 
-// Register User
 export const registerUser = asyncHandler(async (req, res) => {
   const { username, email, password } = req.body;
 
@@ -18,7 +17,6 @@ export const registerUser = asyncHandler(async (req, res) => {
   }
 });
 
-// Login User
 export const loginUser = asyncHandler(async (req, res) => {
   const { email, password } = req.body;
   const user = await User.findOne({ email });
@@ -31,7 +29,6 @@ export const loginUser = asyncHandler(async (req, res) => {
   }
 });
 
-// Check Auth - Verify if user is authenticated (based on token)
 export const checkAuth = asyncHandler((req, res) => {
   if (!req.user) {
     return res.status(401).json({ message: "Unauthorized" });

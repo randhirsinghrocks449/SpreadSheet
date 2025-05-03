@@ -7,7 +7,6 @@ import spreadSheetRoutes from './routes/spreadSheet.routes.js';
 const app = express();
 
 app.use(cors());
-// Middlewares
 app.use(express.json());
 
 app.get('/', (req, res) => {

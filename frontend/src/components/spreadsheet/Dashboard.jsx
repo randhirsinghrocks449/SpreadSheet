@@ -5,7 +5,7 @@ import { FaEye, FaTrash } from "react-icons/fa";
 
 const Dashboard = () => {
     const [spreadsheets, setSpreadsheets] = useState([]);
-    const [newSheetName, setNewSheetName] = useState(""); // New state for sheet name
+    const [newSheetName, setNewSheetName] = useState("");
     const navigate = useNavigate();
 
     useEffect(() => {

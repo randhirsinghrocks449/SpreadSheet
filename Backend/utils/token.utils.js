@@ -2,7 +2,6 @@ import jwt from 'jsonwebtoken';
 import crypto from 'crypto';
 import { CRYPTO_KEY, JWT_SECRET } from '../config/env.js';
 
-// AES config
 const algorithm = 'aes-192-cbc';
 const iv = Buffer.alloc(16, 0);
 

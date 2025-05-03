@@ -1,5 +1,3 @@
-// utils/spreadSheet.utils.js
-
 import Spreadsheet from '../models/spreadSheet.model.js';
 import CellHistory from '../models/cellHistory.model.js';
 

@@ -1,4 +1,3 @@
-// models/cellHistory.js
 import mongoose from 'mongoose';
 
 const cellHistorySchema = new mongoose.Schema({

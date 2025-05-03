@@ -1,4 +1,3 @@
-// models/spreadsheet.js
 import mongoose from 'mongoose';
 
 const cellSchema = new mongoose.Schema({
