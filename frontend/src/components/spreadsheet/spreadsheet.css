@@ -1,0 +1,44 @@
+.spreadsheet-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  th,
+  td {
+    border: 1px solid #dcdcdc;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  th.column-header {
+    background-color: #f3f3f3;
+    font-weight: bold;
+  }
+  
+  th.row-header {
+    background-color: #f3f3f3;
+    font-weight: bold;
+  }
+  
+  input.cell-input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 0;
+    text-align: center;
+    background-color: transparent;
+    outline: none;
+    font-size: 14px;
+  }
+  

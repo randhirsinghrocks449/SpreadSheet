@@ -1,0 +1,10 @@
+{
+  "development": {
+    "clientPath": "http://localhost:5173",
+    "serverPath": "http://localhost:3001"
+  },
+  "production": {
+    "clientPath": "https://rolla.gg",
+    "serverPath": "https://api.rolla.gg"
+  }
+}
