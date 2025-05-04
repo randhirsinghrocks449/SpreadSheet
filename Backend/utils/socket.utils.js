@@ -1,4 +1,4 @@
-import { updateCellValue } from "../utils/spreadSheet.utils.js";
+import { updateCellValue } from "./spreadsheet.utils.js";
 
 export const handleCellUpdate = async (socket, data) => {
   try {

@@ -34,5 +34,7 @@ const spreadsheetSchema = new mongoose.Schema({
   timestamps: true,
 });
 
-const Spreadsheet = mongoose.model('Spreadsheet', spreadsheetSchema);
+// ✅ Prevent OverwriteModelError
+const Spreadsheet = mongoose.models.Spreadsheet || mongoose.model('Spreadsheet', spreadsheetSchema);
+
 export default Spreadsheet;

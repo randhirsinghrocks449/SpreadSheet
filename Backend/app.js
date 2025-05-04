@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import { errorHandler } from './helper/error.js';
 import authRoutes from './routes/auth.routes.js';
-import spreadSheetRoutes from './routes/spreadSheet.routes.js';
+import spreadSheetRoutes from './routes/spreadsheet.routes.js';
 
 const app = express();
 
