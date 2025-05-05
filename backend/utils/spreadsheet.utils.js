@@ -1,5 +1,5 @@
 import Spreadsheet from '../models/spreadsheet.model.js';
-import CellHistory from '../models/cellHistory.model.js';
+import CellHistory from '../models/cellhistory.model.js';
 
 export const updateCellValue = async (data) => {
     try {
