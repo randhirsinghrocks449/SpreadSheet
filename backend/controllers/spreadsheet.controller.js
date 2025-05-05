@@ -1,6 +1,6 @@
 
 import Spreadsheet from '../models/spreadsheet.model.js';
-import { asyncHandler } from '../utils/catchAsync.utils.js';
+import { asyncHandler } from '../utils/catchasync.utils.js';
 
 export const createSheet = asyncHandler(async (req, res) => {
     const { name, rows = 10, columns = 10 } = req.body;
