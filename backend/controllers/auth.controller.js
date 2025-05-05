@@ -1,5 +1,5 @@
 import User from '../models/user.model.js';
-import { asyncHandler } from '../utils/catchAsync.utils.js';
+import { asyncHandler } from '../utils/catchasync.utils.js';
 import { generateEncryptedToken } from '../utils/token.utils.js';
 
 export const registerUser = asyncHandler(async (req, res) => {
